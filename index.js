@@ -14,7 +14,7 @@
 
   app.use(
       cors({
-        origin: "*",
+        origin: "https://ecommer-react.vercel.app",
       })
     );
   app.use( bodyParser.json( { limit: '50mb' } ) );

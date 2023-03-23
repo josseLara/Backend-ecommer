@@ -17,8 +17,8 @@
   app.use( bodyParser.urlencoded( { limit: '50mb', extended: true } ) );
   app.use( cookieParser() )
   app.use( "/product", routerProduct );
-  // app.use( "/user", routerUser );
-  // app.use( "/favorites", routerFavorites );
+  app.use( "/user", routerUser );
+  app.use( "/favorites", routerFavorites );
 
 
   const boostraping = async () => {

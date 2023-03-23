@@ -5,4 +5,4 @@ export const routerProduct = Router();
 
 
 routerProduct.post("/",getProduct)
-routerProduct.get("/",(req,res)=> res.send('jsais'))
+routerProduct.get("/",(req,res)=> {res.send('jsais')})

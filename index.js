@@ -16,7 +16,7 @@
   app.use( bodyParser.json( { limit: '50mb' } ) );
   app.use( bodyParser.urlencoded( { limit: '50mb', extended: true } ) );
   app.use( cookieParser() )
-  // app.use( "/product", routerProduct );
+  app.use( "/product", routerProduct );
   // app.use( "/user", routerUser );
   // app.use( "/favorites", routerFavorites );
 

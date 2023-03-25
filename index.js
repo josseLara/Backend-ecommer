@@ -12,7 +12,7 @@
   const port = process.env.PORT || 3001;
   const app = express();
   app.use(cors({
-   origin:'*' 
+   origin:'https://ecommer-react.vercel.app' 
   }));
 
   app.use( bodyParser.json( { limit: '50mb' } ) );

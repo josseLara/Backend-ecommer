@@ -6,5 +6,6 @@ export const productSchemas = mongoose.Schema({
      img:Array,
      description:String,
      talla:Array,
-     color: Array
+     color: Array,
+     marca:String
 });
